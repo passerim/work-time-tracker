@@ -1,0 +1,23 @@
+# Build output
+dist/
+
+# macOS system files
+.DS_Store
+._*
+
+# VS Code settings
+.vscode/
+
+# Node.js dependencies
+node_modules/
+
+# Backup/temporary files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Github settings
+.github/*
+!.github/workflows/

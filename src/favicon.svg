@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main colored circle (stronger border for visibility) -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGradient)" stroke="#222" stroke-width="4"/>
+  <circle cx="100" cy="100" r="75" fill="#FFF" stroke="#2563EB" stroke-width="14"/>
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#60A5FA" stroke-width="3"/>
+
+  <!-- Stopwatch button (more polished, with highlight and shadow) -->
+  <ellipse cx="100" cy="25" rx="18" ry="10" fill="#F59E42" stroke="#B45309" stroke-width="2"/>
+  <ellipse cx="100" cy="23" rx="10" ry="4" fill="#FFF" fill-opacity="0.7"/>
+  <ellipse cx="100" cy="28" rx="8" ry="3" fill="#B45309" fill-opacity="0.25"/>
+
+  <!-- Minute hand (thicker, more visible) -->
+  <path d="M100 100 L100 48" stroke="#EF4444" stroke-width="13" stroke-linecap="round"/>
+  <!-- Hour hand (thicker, more visible) -->
+  <path d="M100 100 L145 120" stroke="#10B981" stroke-width="13" stroke-linecap="round"/>
+  <!-- Center circle (bolder) -->
+  <circle cx="100" cy="100" r="13" fill="#2563EB" stroke="#F59E42" stroke-width="4"/>
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A5B4FC"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+
+  <title>Work Time Tracker Icon</title>
+  <desc>Round, colorful clock with transparent background and vivid details. Designed for high visibility at small icon sizes.</desc>
+</svg>

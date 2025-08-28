@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Redirects to the home page after 2 seconds for better user experience on 404 errors -->
+    <meta http-equiv="refresh" content="2; url=index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self';style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net;script-src 'self' https://cdn.jsdelivr.net;font-src 'self';img-src 'self';connect-src 'none';" />
+    <title>404 - Page Not Found</title>
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-light d-flex flex-column min-vh-100">
+    <main class="text-center">
+      <h1 id="notfound-title" class="mb-3">404 - Page Not Found</h1>
+      <p>Redirecting to the <a href="index.html" class="link-primary">home page</a>...</p>
+      <p lang="it">Reindirizzamento alla <a href="index.html" class="link-primary">pagina principale</a>...</p>
+      <p>
+        <a href="index.html" tabindex="0" aria-label="Go to home page" class="btn btn-outline-primary btn-sm mt-2"
+          >&larr; Go to Home / Torna alla Home</a
+        >
+      </p>
+      <span class="visually-hidden">You will be redirected automatically in a few seconds.</span>
+    </main>
+    <footer class="text-center mt-5 mb-3 text-secondary" style="font-size: 0.75rem">
+      <span class="d-flex align-items-center justify-content-center">
+        <img class="me-1" src="favicon.svg" alt="Work Time Tracker" style="height: 1.5rem" />
+        &copy; 2025 &middot; Made by&nbsp;
+        <a href="https://github.com/passerim" target="_blank" rel="noopener" title="Visit @passerim's GitHub profile"
+          >@passerim</a
+        >
+        &nbsp;&middot;&nbsp;
+        <a
+          href="https://github.com/passerim/work-time-tracker"
+          target="_blank"
+          rel="noopener"
+          title="View the source code on GitHub">
+          Source Code
+        </a>
+      </span>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

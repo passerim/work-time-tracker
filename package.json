@@ -1,0 +1,19 @@
+{
+  "name": "work-time-tracker",
+  "version": "0.1.0",
+  "description": "Minimal static work time tracker app.",
+  "author": "passerim",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "lint": "eslint src/*.js",
+    "minify:js": "npx esbuild src/script.js --minify --outfile=dist/script.js",
+    "minify:css": "npx esbuild src/style.css --minify --outfile=dist/style.css --loader:.css=text",
+    "copy:static": "cp src/index.html dist/ && cp src/favicon.svg dist/ && cp src/404.html dist/",
+    "build": "npm run clean && npm run lint && npm run minify:js && npm run minify:css && npm run copy:static"
+  },
+  "devDependencies": {
+    "eslint": "^9.34.0",
+    "esbuild": "^0.25.9"
+  },
+  "license": "GPL-3.0-or-later"
+}

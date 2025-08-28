@@ -1,0 +1,12 @@
+# Recommended settings for Unix/Linux systems
+* text=auto eol=lf
+
+# Force script and text files to use LF line endings
+*.sh text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+
+# SVG files and icons
+*.svg text eol=lf
